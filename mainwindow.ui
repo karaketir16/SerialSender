@@ -63,11 +63,20 @@
       </item>
       <item>
        <widget class="QSpinBox" name="period">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
         <property name="suffix">
          <string>ms</string>
         </property>
         <property name="prefix">
          <string/>
+        </property>
+        <property name="maximum">
+         <number>99999</number>
         </property>
        </widget>
       </item>
@@ -91,7 +100,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>19</height>
+     <height>20</height>
     </rect>
    </property>
   </widget>
